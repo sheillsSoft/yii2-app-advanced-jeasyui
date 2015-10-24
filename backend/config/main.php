@@ -1,9 +1,7 @@
 <?php
+
 $params = array_merge(
-    require(__DIR__ . '/../../common/config/params.php'),
-    require(__DIR__ . '/../../common/config/params-local.php'),
-    require(__DIR__ . '/params.php'),
-    require(__DIR__ . '/params-local.php')
+        require(__DIR__ . '/../../common/config/params.php'), require(__DIR__ . '/../../common/config/params-local.php'), require(__DIR__ . '/params.php'), require(__DIR__ . '/params-local.php')
 );
 
 return [
@@ -30,13 +28,24 @@ return [
             'errorAction' => 'site/error',
         ],
         /*
-        'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
+          'urlManager' => [
+          'enablePrettyUrl' => true,
+          'showScriptName' => false,
+          'rules' => [
+          ],
+          ],
+         */
+        'view' => [
+            'theme' => [
+                'class' => 'sheillendra\theme\components\Theme',
+                'active' => 'easyui',
+                'pathMap' => [
+                    'easyui' => [
+                        '@app/views' => ['@app/themes/easyui/views']
+                    ]
+                ],
             ],
         ],
-        */
     ],
     'params' => $params,
 ];
