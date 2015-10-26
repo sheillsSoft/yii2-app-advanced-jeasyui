@@ -11,10 +11,12 @@ return [
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
-        'user' => [
-            'identityClass' => 'common\models\User',
-            'enableAutoLogin' => true,
-        ],
+        /*
+          'user' => [
+          'identityClass' => 'common\models\User',
+          'enableAutoLogin' => true,
+          ],
+         */
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
@@ -27,14 +29,11 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
-          'urlManager' => [
-          'enablePrettyUrl' => true,
-          'showScriptName' => false,
-          'rules' => [
-          ],
-          ],
-         */
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [],
+        ],
         'view' => [
             'theme' => [
                 'class' => 'sheillendra\theme\components\Theme',
