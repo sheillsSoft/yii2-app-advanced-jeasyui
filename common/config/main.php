@@ -4,7 +4,10 @@ return [
     'modules' => [
         'user' => [
             'class' => 'sheillendra\user\Module'
-        ]
+        ],
+		'reference' => [
+            'class' => 'sheillendra\reference\Module'
+        ],
     ],
     'components' => [
         'user' => [

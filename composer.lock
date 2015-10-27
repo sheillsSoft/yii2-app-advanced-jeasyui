@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5dbc65cc94541e029810c97bafb324df",
-    "content-hash": "77d775472e2e8dc69f406e13e1e299d1",
+    "hash": "6581babe275ef8f7cf994b6595c4813d",
+    "content-hash": "e8b07e0c2995e6636f5cc57501cef2e8",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -370,17 +370,57 @@
             "time": "2013-11-30 08:25:19"
         },
         {
+            "name": "sheillendra/data-reference",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sheillendra/data-reference.git",
+                "reference": "50f0655db09f53519526afe7a74c7a9e23c81251"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sheillendra/data-reference/zipball/50f0655db09f53519526afe7a74c7a9e23c81251",
+                "reference": "50f0655db09f53519526afe7a74c7a9e23c81251",
+                "shasum": ""
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sheillendra\\reference\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sheillendra",
+                    "email": "sheillendra@yahoo.com"
+                }
+            ],
+            "description": "Collection data reference",
+            "keywords": [
+                "Reference",
+                "data",
+                "sheillendra",
+                "yii",
+                "yii2"
+            ],
+            "time": "2015-10-27 09:42:55"
+        },
+        {
             "name": "sheillendra/yii2-jeasyui",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sheillendra/yii2-jeasyui.git",
-                "reference": "0d7ed163e052603abfe4ed8b55acc870a375f1ae"
+                "reference": "8c3a1b2653109bb6310ec4c5612285000592f908"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sheillendra/yii2-jeasyui/zipball/0d7ed163e052603abfe4ed8b55acc870a375f1ae",
-                "reference": "0d7ed163e052603abfe4ed8b55acc870a375f1ae",
+                "url": "https://api.github.com/repos/sheillendra/yii2-jeasyui/zipball/8c3a1b2653109bb6310ec4c5612285000592f908",
+                "reference": "8c3a1b2653109bb6310ec4c5612285000592f908",
                 "shasum": ""
             },
             "require": {
@@ -412,7 +452,7 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2015-08-15 17:02:06"
+            "time": "2015-10-26 02:43:48"
         },
         {
             "name": "sheillendra/yii2-theme",
@@ -460,12 +500,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sheillendra/yii2-user.git",
-                "reference": "04e358742a4924b67394491fa46339c05f239901"
+                "reference": "fed560b06f6619977c5c1142a131cd432e24e05d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sheillendra/yii2-user/zipball/04e358742a4924b67394491fa46339c05f239901",
-                "reference": "04e358742a4924b67394491fa46339c05f239901",
+                "url": "https://api.github.com/repos/sheillendra/yii2-user/zipball/fed560b06f6619977c5c1142a131cd432e24e05d",
+                "reference": "fed560b06f6619977c5c1142a131cd432e24e05d",
                 "shasum": ""
             },
             "require": {
@@ -496,7 +536,7 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2014-08-27 16:37:03"
+            "time": "2015-10-27 02:44:03"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -557,12 +597,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "0941bbce25f08ee8d0fbbb4d3292996d6cfbf63b"
+                "reference": "f996ca7c045e78c1c4e47daa90cbf5bb387dc6a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/0941bbce25f08ee8d0fbbb4d3292996d6cfbf63b",
-                "reference": "0941bbce25f08ee8d0fbbb4d3292996d6cfbf63b",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/f996ca7c045e78c1c4e47daa90cbf5bb387dc6a3",
+                "reference": "f996ca7c045e78c1c4e47daa90cbf5bb387dc6a3",
                 "shasum": ""
             },
             "require": {
@@ -638,7 +678,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2015-10-23 14:18:59"
+            "time": "2015-10-26 20:23:21"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -646,12 +686,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "7c6b244d9cfd58a5a10cad9853edc090ffd479b1"
+                "reference": "09a5bfe72c0141ad26281848f1ae9c3f42541f20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/7c6b244d9cfd58a5a10cad9853edc090ffd479b1",
-                "reference": "7c6b244d9cfd58a5a10cad9853edc090ffd479b1",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/09a5bfe72c0141ad26281848f1ae9c3f42541f20",
+                "reference": "09a5bfe72c0141ad26281848f1ae9c3f42541f20",
                 "shasum": ""
             },
             "require": {
@@ -688,7 +728,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2015-10-15 16:22:38"
+            "time": "2015-10-25 21:18:48"
         },
         {
             "name": "yiisoft/yii2-composer",
