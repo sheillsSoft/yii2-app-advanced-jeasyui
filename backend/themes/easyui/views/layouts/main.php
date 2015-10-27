@@ -31,8 +31,8 @@ AppAsset::register($this);
 
 <?php
 $username = Yii::$app->user->identity->username;
-$logoutUrl = Url::to(['site/logout'],true);
-$getReferenceUrl = Url::to(['reference/get'],true);
+$logoutUrl = Url::to(['/user/logout'],true);
+$getReferenceUrl = Url::to(['/reference/get'],true);
 $northContent = preg_replace(Regex::htmlMinified, ' ', $this->render('_north-content'));
 $centerContent = '<div id="maintab"></div>';
 $westContent = preg_replace(Regex::htmlMinified, ' ', $this->render('_west-content'));
@@ -42,6 +42,7 @@ $params = $this->params;
 require(__DIR__ . '/_nav-item.php');
 
 $this->params['selectedNavAccordion'] = isset($this->params['selectedNavAccordion']) ? $this->params['selectedNavAccordion'] : 'dashboard';
+$this->params['selectedNav'] = isset($this->params['selectedNav']) ? $this->params['selectedNav'] :'nav-dashboard';
 
 $navItem[$this->params['selectedNavAccordion']]['selected'] = true;
 
@@ -56,6 +57,8 @@ foreach($allRoles as $k=>$v){
 }
 $roles = Json::encode($arrRoles);
 
+$errors = isset($this->params['error'])?"yii.app.errors = '". implode(', ', $this->params['error'] ) ."';":'';
+        
 $this->registerJs(<<<EOD
     yii.app.logoutUrl = '{$logoutUrl}';
     yii.app.getReferenceUrl = '{$getReferenceUrl}';
@@ -66,6 +69,7 @@ $this->registerJs(<<<EOD
     yii.app.selectedNav = '{$this->params['selectedNav']}';
     yii.app.myRoles = {$myRoles};
     yii.app.reference.roles = {$roles};
+    {$errors}
     yii.app.init();
 EOD
 );?>

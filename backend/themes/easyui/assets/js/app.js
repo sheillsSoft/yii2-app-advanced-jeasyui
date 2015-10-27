@@ -158,6 +158,11 @@ yii.app = (function($) {
                 
                 delete yii.app.selectedNav;
                 navSelected = null;
+                
+                if(typeof yii.app.errors !=='undefined' ){
+                    $.messager.alert('Error',yii.app.errors,'error');
+                }
+                delete yii.app.errors;
             });
         },
         createTab:function(title,url,icon,nav){

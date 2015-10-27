@@ -11,7 +11,7 @@ return [
             'class' => 'yii\web\User',
             'identityClass' => 'sheillendra\user\models\User',
             'enableAutoLogin' => true,
-            'loginUrl' => 'user/login'
+            'loginUrl' => ['/user/login']
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
