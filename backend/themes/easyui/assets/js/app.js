@@ -213,8 +213,7 @@ yii.app = (function($) {
                     content : content
                 }); 
             });
-        },
-        
+        }, 
         doIfReferenceExists:function(arrReference,callback,param){
             if(typeof arrReference[0] !== 'undefined' && typeof yii.app.reference[arrReference[0]] ==='undefined'){
                 $.ajax({
