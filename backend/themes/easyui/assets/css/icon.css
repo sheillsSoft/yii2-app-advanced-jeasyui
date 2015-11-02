@@ -16,6 +16,10 @@
 .icon-form {background:url('icons/application_form.png') no-repeat center center;}
 .icon-group-gear {background:url('icons/group_gear.png') no-repeat center center;}
 .icon-house {background:url('icons/house.png') no-repeat center center;}
+.icon-profile {background:url('icons/profile-icon.png') no-repeat center center;}
+.icon-profile-search {background:url('icons/profile-search-icon.png') no-repeat center center;}
+.icon-profile-setting {background:url('icons/profile-settings.png') no-repeat center center;}
 .icon-script {background:url('icons/script.png') no-repeat center center;}
 .icon-time {background:url('icons/time.png') no-repeat center center;}
 .icon-user {background:url('icons/user.png') no-repeat center center;}
+.icon-user-add {background:url('icons/Actions-list-add-user-icon.png') no-repeat center center;}

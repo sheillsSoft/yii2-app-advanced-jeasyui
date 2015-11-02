@@ -53,7 +53,9 @@ $myRoles = Json::encode(Yii::$app->authManager->getRolesByUser(Yii::$app->user->
 $allRoles = Yii::$app->authManager->getRoles();
 $arrRoles = [];
 foreach($allRoles as $k=>$v){
-    $arrRoles[] = ['name'=>$v->name];
+    $stdClass = new stdClass();
+    $stdClass->name = $v->name;
+    $arrRoles[] = $stdClass;
 }
 $roles = Json::encode($arrRoles);
 

@@ -500,12 +500,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sheillendra/yii2-user.git",
-                "reference": "e86e9703f54d4c000b2f36c720cbf021e6af9323"
+                "reference": "fd22b0baebb4b87a47f62ae4ef4083c489bc1294"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sheillendra/yii2-user/zipball/e86e9703f54d4c000b2f36c720cbf021e6af9323",
-                "reference": "e86e9703f54d4c000b2f36c720cbf021e6af9323",
+                "url": "https://api.github.com/repos/sheillendra/yii2-user/zipball/fd22b0baebb4b87a47f62ae4ef4083c489bc1294",
+                "reference": "fd22b0baebb4b87a47f62ae4ef4083c489bc1294",
                 "shasum": ""
             },
             "require": {
@@ -536,7 +536,7 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2015-10-28 02:09:43"
+            "time": "2015-10-28 11:11:01"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -597,12 +597,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "859403065bb845925f6b6fa1bb357a9fb1219676"
+                "reference": "9297de8f550267ad4eac90517d4863c3d2448330"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/859403065bb845925f6b6fa1bb357a9fb1219676",
-                "reference": "859403065bb845925f6b6fa1bb357a9fb1219676",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/9297de8f550267ad4eac90517d4863c3d2448330",
+                "reference": "9297de8f550267ad4eac90517d4863c3d2448330",
                 "shasum": ""
             },
             "require": {
@@ -678,7 +678,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2015-10-27 14:44:16"
+            "time": "2015-10-28 11:08:56"
         },
         {
             "name": "yiisoft/yii2-bootstrap",

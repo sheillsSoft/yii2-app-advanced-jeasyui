@@ -83,6 +83,13 @@ yii.app = (function($) {
                 $('#north-user-menu-item').menu({
                     
                 }).menu('appendItem',{
+                    text:'Profile',
+                    iconCls:'icon-profile',
+                    onclick:function(e){
+                        yii.app.createTab('Profile',yii.app.profileUrl,'icon-profile','nav-profile');
+                        e.stopPropagation();
+                    }
+                }).menu('appendItem',{
                     separator:!0
                 }).menu('appendItem',{
                     text:'Logout',
