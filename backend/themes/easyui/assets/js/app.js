@@ -26,7 +26,8 @@ yii.app = (function($) {
             }else{
                 callback(param);
             }
-        }
+        },
+		globalError = $('#global-error')
     ;
     
     return {
@@ -209,8 +210,8 @@ yii.app = (function($) {
                 });
                 content = temp.join(', ');
             }
-            using(['dialog'],function(){
-                $('#global-error').dialog({
+            using('dialog',function(){
+                globalError.dialog({
                     title : 'Error',
                     modal : true,
                     minWidth : 300,
@@ -346,6 +347,32 @@ yii.app = (function($) {
             }else{
                 $.messager.alert('Attention','Must checked the record will be delete','warning');
             }
-        }
+        },
+		extend : {
+			minLength : function(){
+				using('validatebox',function(){
+					if(typeof $.fn.validatebox.defaults.rules.minLength ==='undefined' ){
+						$.fn.validatebox.defaults.rules.minLength = {
+							validator: function(value, param){
+								return value.length >= param[0];
+							},
+							message: 'Please enter at least {0} characters.'
+						};
+					}
+				});
+			},
+			equals : function(){
+				using('validatebox',function(){
+					if(typeof $.fn.validatebox.defaults.rules.equals ==='undefined' ){
+						$.fn.validatebox.defaults.rules.equals = {
+							validator: function(value,param){
+								return value == $(param[0]).val();
+							},
+							message: 'Field do not match.'
+						};
+					}
+				});
+			}
+		}
     };
 })(jQuery);
