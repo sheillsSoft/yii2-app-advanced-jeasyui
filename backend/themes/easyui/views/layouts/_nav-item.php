@@ -16,8 +16,8 @@ $navItemUrl = [
 
 $navItem = [
     'dashboard'=>[
-        'title'=>'Dashboard',
-        'iconCls'=>'icon-chart-curve',
+        'title'=>'Home',
+        'iconCls'=>'icon-house',
         'content'=><<<HTML
             <a id="nav-dashboard" class="nav-btn" data-icon="icon-chart-curve" data-url="{$navItemUrl['dashboard']['dashboard']}" data-tabtitle="Dashboard">Dashboard</a>
 HTML

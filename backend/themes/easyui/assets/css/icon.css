@@ -10,12 +10,14 @@
 .icon-cog-delete {background:url('icons/cog_delete.png') no-repeat center center;}
 .icon-cog-edit {background:url('icons/cog_edit.png') no-repeat center center;}
 .icon-cog-go {background:url('icons/cog_go.png') no-repeat center center;}
+.icon-compass {background:url('icons/Compass-icon.png') no-repeat center center;}
 .icon-cross {background:url('icons/cross.png') no-repeat center center;}
 .icon-disk {background:url('icons/disk.png') no-repeat center center;}
 .icon-door-out {background:url('icons/door_out.png') no-repeat center center;}
 .icon-form {background:url('icons/application_form.png') no-repeat center center;}
 .icon-group-gear {background:url('icons/group_gear.png') no-repeat center center;}
 .icon-house {background:url('icons/house.png') no-repeat center center;}
+.icon-navigation {background:url('icons/navigation-icon.png') no-repeat center center;}
 .icon-profile {background:url('icons/profile-icon.png') no-repeat center center;}
 .icon-profile-search {background:url('icons/profile-search-icon.png') no-repeat center center;}
 .icon-profile-setting {background:url('icons/profile-settings.png') no-repeat center center;}

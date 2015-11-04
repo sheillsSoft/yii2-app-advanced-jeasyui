@@ -63,7 +63,7 @@ yii.app = (function($) {
                 }).layout('add', {
                     title : 'Navigation',
                     region: 'west',
-                    iconCls: 'icon-house',
+                    iconCls: 'icon-compass',
                     split:!0,
                     width: 200,
                     content: yii.app.westContent

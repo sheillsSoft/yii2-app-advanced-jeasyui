@@ -500,12 +500,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sheillendra/yii2-user.git",
-                "reference": "ecaba2f0bb29153ca42197d48b7bcc01ebc89c3b"
+                "reference": "c52821ed5f4168b5c0b1a5501e72f2ca6ceb0852"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sheillendra/yii2-user/zipball/ecaba2f0bb29153ca42197d48b7bcc01ebc89c3b",
-                "reference": "ecaba2f0bb29153ca42197d48b7bcc01ebc89c3b",
+                "url": "https://api.github.com/repos/sheillendra/yii2-user/zipball/c52821ed5f4168b5c0b1a5501e72f2ca6ceb0852",
+                "reference": "c52821ed5f4168b5c0b1a5501e72f2ca6ceb0852",
                 "shasum": ""
             },
             "require": {
@@ -536,7 +536,7 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2015-11-03 10:57:57"
+            "time": "2015-11-04 02:37:03"
         },
         {
             "name": "swiftmailer/swiftmailer",
