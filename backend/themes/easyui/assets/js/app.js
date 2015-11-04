@@ -201,7 +201,7 @@ yii.app = (function($) {
                 vc.children('div.datagrid-empty').remove();
             }
         },
-        showError:function(e){
+        showError:function(e){console.log(e);
             var content = typeof e.responseText !== 'undefined' ? e.responseText : e;
             if(typeof content ==='object'){
                 var temp=[];
