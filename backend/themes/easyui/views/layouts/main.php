@@ -32,6 +32,7 @@ AppAsset::register($this);
 <?php
 $username = Yii::$app->user->identity->username;
 $logoutUrl = Url::to(['/user/logout'],true);
+$profileUrl  = Url::to(['/user/profile'],true);
 $getReferenceUrl = Url::to(['/reference/get'],true);
 $northContent = preg_replace(Regex::htmlMinified, ' ', $this->render('_north-content'));
 $centerContent = '<div id="maintab"></div>';
@@ -41,10 +42,7 @@ $params = $this->params;
 
 require(__DIR__ . '/_nav-item.php');
 
-$this->params['selectedNavAccordion'] = isset($this->params['selectedNavAccordion']) ? $this->params['selectedNavAccordion'] : 'dashboard';
 $this->params['selectedNav'] = isset($this->params['selectedNav']) ? $this->params['selectedNav'] :'nav-dashboard';
-
-$navItem[$this->params['selectedNavAccordion']]['selected'] = true;
 
 $navItemJson = Json::encode($navItem);
 
@@ -63,6 +61,7 @@ $errors = isset($this->params['error'])?"yii.app.errors = '". implode(', ', $thi
         
 $this->registerJs(<<<EOD
     yii.app.logoutUrl = '{$logoutUrl}';
+    yii.app.profileUrl = '{$profileUrl}';
     yii.app.getReferenceUrl = '{$getReferenceUrl}';
     yii.app.northContent = '{$northContent}';
     yii.app.centerContent = '{$centerContent}';

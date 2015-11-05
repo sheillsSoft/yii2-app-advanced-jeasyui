@@ -19,22 +19,22 @@ $navItem = [
         'title'=>'Home',
         'iconCls'=>'icon-house',
         'content'=><<<HTML
-            <a id="nav-dashboard" class="nav-btn" data-icon="icon-chart-curve" data-url="{$navItemUrl['dashboard']['dashboard']}" data-tabtitle="Dashboard">Dashboard</a>
+            <a data-accordion="Home" id="nav-dashboard" class="nav-btn" data-icon="icon-chart-curve" data-url="{$navItemUrl['dashboard']['dashboard']}" data-tabtitle="Dashboard">Dashboard</a>
 HTML
     ]
     ,'personal-setting' =>[
         'title' =>'Setting',
         'iconCls' =>'icon-cog',
         'content' =><<<HTML
-            <a id="nav-profile" class="nav-btn" data-icon="icon-profile" data-url="{$navItemUrl['personal-setting']['profile']}" data-tabtitle="Profile">Profile</a>
-            <a id="nav-account-setting" class="nav-btn" data-icon="icon-group-gear" data-url="{$navItemUrl['personal-setting']['account-setting']}" data-tabtitle="Account Setting">Account Setting</a>
+            <a data-accordion="Setting" id="nav-profile" class="nav-btn" data-icon="icon-profile" data-url="{$navItemUrl['personal-setting']['profile']}" data-tabtitle="Profile">Profile</a>
+            <a data-accordion="Setting" id="nav-account-setting" class="nav-btn" data-icon="icon-group-gear" data-url="{$navItemUrl['personal-setting']['account-setting']}" data-tabtitle="Account Setting">Account Setting</a>
 HTML
     ]
     ,'setting' =>[
         'title' =>'Admin Setting',
         'iconCls' =>'icon-group-gear',
         'content' =><<<HTML
-            <a id="nav-access-list" class="nav-btn" data-icon="icon-group-gear" data-url="{$navItemUrl['setting']['access']}" data-tabtitle="Access Management">Access Management</a>
+            <a data-accordion="Admin Setting" id="nav-access-list" class="nav-btn" data-icon="icon-group-gear" data-url="{$navItemUrl['setting']['access']}" data-tabtitle="Access Management">Access Management</a>
 HTML
     ]
 ];
