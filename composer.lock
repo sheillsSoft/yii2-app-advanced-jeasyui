@@ -415,12 +415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sheillendra/yii2-jeasyui.git",
-                "reference": "8c3a1b2653109bb6310ec4c5612285000592f908"
+                "reference": "d5c3d13e67f0e8168df334f979ab1ff6aed5d348"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sheillendra/yii2-jeasyui/zipball/8c3a1b2653109bb6310ec4c5612285000592f908",
-                "reference": "8c3a1b2653109bb6310ec4c5612285000592f908",
+                "url": "https://api.github.com/repos/sheillendra/yii2-jeasyui/zipball/d5c3d13e67f0e8168df334f979ab1ff6aed5d348",
+                "reference": "d5c3d13e67f0e8168df334f979ab1ff6aed5d348",
                 "shasum": ""
             },
             "require": {
@@ -452,7 +452,7 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2015-10-26 02:43:48"
+            "time": "2015-11-09 05:40:11"
         },
         {
             "name": "sheillendra/yii2-theme",
@@ -500,12 +500,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sheillendra/yii2-user.git",
-                "reference": "10e4d236a462bc33aef951ccab6934f4b7768fb2"
+                "reference": "c8f8ae2e271867c4299f54c5aa79cd4167705608"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sheillendra/yii2-user/zipball/10e4d236a462bc33aef951ccab6934f4b7768fb2",
-                "reference": "10e4d236a462bc33aef951ccab6934f4b7768fb2",
+                "url": "https://api.github.com/repos/sheillendra/yii2-user/zipball/c8f8ae2e271867c4299f54c5aa79cd4167705608",
+                "reference": "c8f8ae2e271867c4299f54c5aa79cd4167705608",
                 "shasum": ""
             },
             "require": {
@@ -536,7 +536,7 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2015-11-05 02:50:29"
+            "time": "2015-11-09 02:56:57"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -597,12 +597,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "7fb941436f5969cd278608f4a07518b430c7fde3"
+                "reference": "7f2fe7317a11e8fb2c1b414f6e11cdb35b9e44d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/7fb941436f5969cd278608f4a07518b430c7fde3",
-                "reference": "7fb941436f5969cd278608f4a07518b430c7fde3",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/7f2fe7317a11e8fb2c1b414f6e11cdb35b9e44d5",
+                "reference": "7f2fe7317a11e8fb2c1b414f6e11cdb35b9e44d5",
                 "shasum": ""
             },
             "require": {
@@ -678,7 +678,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2015-11-04 20:01:43"
+            "time": "2015-11-07 15:59:24"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
