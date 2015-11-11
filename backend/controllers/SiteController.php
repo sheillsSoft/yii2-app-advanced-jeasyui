@@ -50,9 +50,8 @@ class SiteController extends Controller
         if(Yii::$app->request->isAjax){
             echo $this->renderAjax('_index');
             Yii::$app->end();
-        }else{
-            return $this->render('index');
         }
+        return $this->render('index');
     }
 
 }

@@ -255,6 +255,15 @@ yii.app = (function ($) {
         },
         //ini digunakan ketika onLoad di set di module pemanggil
         formOptionsOnCreateAjaxDialogForm: {},
+        
+        /**
+         * @param string `module` nama module s
+         * @param
+         * @param
+         * @param
+         * @param
+         * @return
+         */
         createAjaxDialogForm: function (module, formName, options, formOptions, doBeforeOpen) {
             yii.app.formOptionsOnCreateAjaxDialogForm = formOptions;
 

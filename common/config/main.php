@@ -1,20 +1,18 @@
 <?php
+
 return [
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'modules' => [
         'user' => [
             'class' => 'sheillendra\user\Module'
         ],
-		'reference' => [
+        'reference' => [
             'class' => 'sheillendra\reference\Module'
         ],
     ],
     'components' => [
         'user' => [
-            'class' => 'yii\web\User',
-            'identityClass' => 'sheillendra\user\models\User',
-            'enableAutoLogin' => true,
-            'loginUrl' => ['/user/login']
+            'class' => 'sheillendra\user\components\User',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
